@@ -16,7 +16,7 @@
     "animation"
   ],
   "files": [
-    "confetti"
+    "dist"
   ],
   "scripts": {
     "prepare": "tsc"
