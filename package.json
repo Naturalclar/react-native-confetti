@@ -1,8 +1,9 @@
 {
-  "name": "react-native-confetti",
-  "version": "0.1.0",
+  "name": "@naturalclar/react-native-confetti",
+  "version": "0.2.0",
   "description": "Raining confetti made with react native animations",
-  "main": "confettiView.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cdvntr/react-native-confetti.git"
@@ -14,11 +15,26 @@
     "confetti",
     "animation"
   ],
+  "files": [
+    "confetti"
+  ],
+  "scripts": {
+    "prepare": "tsc"
+  },
   "author": "Codeventure",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cdvntr/react-native-confetti/issues"
   },
+  "devDependencies": {
+    "react": "16.9.0",
+    "react-native": "0.61.5",
+    "@types/react-native": "0.61.12",
+    "@types/react": "16.9.19"
+  },
   "homepage": "https://github.com/cdvntr/react-native-confetti#readme",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "publishConfig": {
+    "access": "public"
+  }
 }
